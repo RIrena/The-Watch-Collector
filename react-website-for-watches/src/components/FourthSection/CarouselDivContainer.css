@@ -1,0 +1,37 @@
+.container {
+  /* position: apsolute; */
+  width: 800px;
+  padding: 0px;
+  left: calc(50% - 600px);
+  display: flex;
+  gap: 2px;
+}
+
+.card {
+  display: flex;
+  height: 340px;
+  width: 345px;
+  border-radius: 20px;
+  box-shadow: -1rem 0 3rem #000;
+  margin-left: auto;
+  transition: 0.4s ease-out;
+  position: relative;
+  left: 0px;
+}
+
+.card:not(:first-child) {
+  margin-left: -50px;
+}
+
+.card:hover {
+  transform: translateY(-20px);
+  transition: 0.4s ease-out;
+}
+
+.card:hover ~ .card {
+  position: relative;
+  left: 50px;
+  transition: 0.4s ease-out;
+}
+
+

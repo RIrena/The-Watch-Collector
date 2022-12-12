@@ -1,0 +1,18 @@
+export const infoObjSection = {
+    id: 'info',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topLine: 'Luxury Watches',
+    topLine2: 'Buying a Watch',
+    topLine3: 'Used Watches',
+    description: 'Luxury watches are a source of fascination for people around the globe. But what qualifies as a luxury watch? Some may say its any watch made of expensive materials such as gold or platinum. Others could argue that it has to be a mechanical watch with a handmade movement. Then there are those who define luxury based on legendary brands such as Rolex, Patek Philippe, and Breitling.Whatever it is you are looking for, you will find luxury watches from all the famous brands in every price range on The Watch Collector. Find and purchase your dream watch now.',
+    description2: 'Found your dream watch on The Watch Collector? Dont hesitate to make this dream a reality. The safest way to do so is with The Watch Collector free Buyer Protection. This comprehensive coverage includes payment via the Escrow Service. Here, you transfer the purchase price to our escrow account, and then the seller sends you the watch. Once you have received your watch, we keep your money safe in our escrow account for 14 days, giving you time to inspect the watch and make sure it is as described.',
+    description3: 'Not every watch has to come fresh from the factory. In fact, many people fall for the charm of watches with designs from the 60s or 70s. These vintage watches include coveted collectors items and hidden treasures waiting to be uncovered by watch fans. Here you will find both expensive rarities as well as legendary pieces whose predecessor models can be purchased at affordable prices.Searching for the right vintage watch is part of the overall shopping experience and often turns novices into watch aficionados.',
+    imgStart: false,
+    img: require('../../images/InfoSection.jpg'),
+    alt: "Box",
+    dark: false,
+    primary: false,
+    darkText: true,
+}
